@@ -25,6 +25,7 @@ jobs:
       - name: Tests report
         run: coverage report
   build_and_pub:
+    runs-on: [ubuntu-latest]
     needs: [run_tests]
     env:
       LOGIN: ${{secrets.DOCKER_LOGIN}}
