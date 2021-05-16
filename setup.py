@@ -4,7 +4,7 @@ from setuptools import setup
 setup(
     name='simple_web_app',
     description="Simple web app for test CI",
-    author='dementevda',
+    author='pavlo',
     url='',
     packages=find_packages('src'),
     package_dir={
